@@ -1,0 +1,292 @@
+* {
+    font-family: Arial, Helvetica, sans-serif, serif;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  color: antiquewhite;
+  height: 105px;
+  text-decoration: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background-color:  rgb(7, 4, 4);
+}
+body{
+  background: #050202;
+}
+a{
+  text-decoration: none;
+}
+.log{
+  margin: 5px auto 0px 100px;
+  color: rgb(255, 123, 0);
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 1.4px;
+}
+.logo{
+  width: auto;
+  height: 80px;
+}
+ul{
+  padding-top: 20px;
+  list-style: none;
+  display: inline-flex;
+  margin-top: 20px;
+  margin-right: 30px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+ul li a{
+text-decoration: none;
+margin-right: 20px;
+color: #faf8fa;
+border-radius: 5px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding: 7px 6px;
+}
+ul li a:hover{
+background-color: rgb(79, 69, 80);
+color: rgb(224, 138, 9);
+border: 1px rgb(79, 69, 80) ;
+border-radius: 10px;
+
+}
+.menu-btn {
+display: none;
+cursor: pointer;
+font-size: 30px;
+padding-top: 30px;
+}
+
+body, button, input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+  }
+  
+  .background {
+    display: flex;
+    min-height: 700px;
+    background-color: #383737;
+    padding-top: 100px;
+  }
+  
+  .container {
+    flex: 0 1 900px;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .screen {
+    position: relative;
+    background: #3e3e3e;
+    border-radius: 15px;
+    padding-top: 70px;
+  }
+  
+  .screen:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    right: 20px;
+    bottom: 0;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+    z-index: -1;
+  }     
+  .screen-body {
+    display: flex;
+  }
+  
+  .screen-body-item {
+    flex: 1;
+    padding: 50px;
+  }
+  
+  .screen-body-item.left {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .app-title {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: rgb(224, 138, 9);
+    font-size: 26px;
+  }
+  
+  .app-title:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 25px;
+    height: 4px;
+    background: rgb(224, 138, 9);
+  }
+  
+  .app-contact {
+    margin-top: auto;
+    font-size: 10px;
+    color: #888;
+  }
+  
+  .app-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .app-form-group.message {
+    margin-top: 40px;
+  }
+  
+  .app-form-group.buttons {
+    margin-bottom: 0;
+    margin-right: 0px;
+    text-align: right;
+
+  }
+  
+  .app-form-control {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: #ddd;
+    font-size: 14px;
+    outline: none;
+    transition: border-color .2s;
+  }
+  
+  .app-form-control::placeholder {
+    color: #666;
+  }
+  
+  .app-form-control:focus {
+    border-bottom-color: #ddd;
+  }
+  
+  .app-form-button {
+    background: none;
+    border: none;
+    color: rgb(224, 138, 9);
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .app-form-button:hover {
+    color: rgb(187, 133, 52);
+    opacity: 0.8;
+    margin-left:auto;
+    margin-right:auto;
+    transition: all 0.5s;
+  }
+  footer{
+    background-color: rgb(19, 16, 14);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    height: 100px;
+}
+.fa.fa-facebook{
+  color: #1877F2;
+  margin-right: 20px;
+  height: 30px;
+  width: 35px;
+  padding: auto;
+  text-align: center;
+  font-size: x-large;
+  padding-top: 5px;
+  border-radius: 10px;
+}
+.fb a:hover{
+  background-color: #1877F2;
+  color: #f5f5f5;
+}
+.fa.fa-instagram{
+  color: #E4405F;
+  background: transparent;
+  height: 30px;
+  width: 35px;
+  padding: auto;
+  text-align: center;
+  font-size: x-large;
+  padding-top: 5px;
+  border-radius: 10px;
+}
+.insta a:hover{
+  color: #f5f5f5;
+  background-color: #E4405F;
+}
+.socials{
+    text-align: left;
+    display: flex;
+    margin-right: 20px;
+}
+.copyright{
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+@media (max-width: 1100px) {
+  .log{
+    margin-left: 50px;
+}
+  .menu-btn {
+    display: block;
+    margin-right: 20px;
+    z-index: 1999;
+  }
+  .menu {
+    position: fixed;
+    height: 100%;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.99);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+
+  .menu.active {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu ul {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .menu ul li {
+      font-size: x-large;
+      background-size: auto;
+      margin: 20px 0;
+      padding: 40px auto 40px auto;
+  }
+  .app-form-button{
+    font-size:12px;
+    margin-top:5px;
+  }
+  .app-form-button:hover{
+    font-size: 12px;
+  }
+}
+

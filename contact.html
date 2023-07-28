@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo-min.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>ELITE CAR SERVICE</title>
+</head>
+<body>
+    <header>
+      <a href="index.html" class="log"><img src="img/logo-min.png" alt="" class="logo"><h6 style="padding-right:5px ;">ELITE CAR SERVICE</h6></a>
+      <div class="menu-btn" onclick="toggleMenu()">&#9776;</div>
+        <nav class="menu" id="menu">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="location.html">LOCALISATION</a></li>
+                <li><a href="contact.html" style="text-decoration: underline; color:rgb(224, 138, 9);">CONTACT</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="background" id="cantact">
+        <div class="container" >
+            <div class="screen" style="height: 400px;">
+            <div class="screen-body">
+              <div class="screen-body-item left">
+                   <div class="app-title">
+                     <span>CONTACT</span>
+                     <span>US</span>
+                    </div>
+                   <div class="app-contact">CONTACT INFO : +212 06 13 25 66 23</div>
+                  </div>
+                  <div class="screen-body-item">
+                    <form id="contactForm" method="post"class="app-form">
+                        <div class="app-form-group">
+                            <input id="name" class="app-form-control" placeholder="NAME" required>
+                        </div>
+                        <div class="app-form-group">
+                            <input type="tel" id="tel" class="app-form-control" pattern="^(06|07)[0-9]{8}$" placeholder="06/05-11111111" required>
+                        </div>
+                        <div class="app-form-group message">
+                            <input id="message" class="app-form-control" placeholder="MESSAGE" required >
+                        </div>
+                        <div class="app-form-group buttons">
+                            <button class="app-form-button"  type="submit">SEND</button>
+                        </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>      
+        </div>
+        <div>
+          <footer>
+              <div class="copyright">
+              &copy; Elite Car Service-Tout Droit Sont Reservé <br><br> Creation <a href="" style="color:rgb(224, 138, 9);">Saad Rajeb</a>
+  
+              </div>
+              <div class="socials">
+                <h2 class="fb"><a href="https://www.facebook.com/people/ELITE-CAR-service-RABAT/100091788020718/?mibextid=ZbWKwL" class="fa fa-facebook"></a></h2>
+                <h2 class="insta"><a href="https://www.instagram.com/elite_carservice_rabat/" class="fa fa-instagram"></a></h2>
+              </div>
+          </footer> 
+      </div>
+      <script src="javascript/menu.js"></script>
+      <script src="javascript/contact.js"></script>  
+</body>
+</html>

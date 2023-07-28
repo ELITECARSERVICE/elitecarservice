@@ -1,0 +1,346 @@
+* {
+    font-family: Arial, Helvetica, sans-serif, serif;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    color: antiquewhite;
+    height: 105px;
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color:  rgb(7, 4, 4);
+}
+body{
+    background: #faf8f8;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+}
+a{
+    text-decoration: none;
+}
+.log{
+    margin: 5px auto 0px 100px;
+    color: rgb(255, 123, 0);
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 1.4px;
+}
+.logo{
+    width: auto;
+    height: 80px;
+}
+ul{
+    padding-top: 20px;
+    list-style: none;
+    display: inline-flex;
+    margin-top: 20px;
+    margin-right: 30px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+ul li a{
+text-decoration: none;
+margin-right: 20px;
+color: #faf8fa;
+border-radius: 5px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding: 7px 6px;
+}
+ul li a:hover{
+background-color: rgb(79, 69, 80);
+color: rgb(224, 138, 9);
+border: 1px rgb(79, 69, 80) ;
+border-radius: 10px;
+
+}
+.menu-btn {
+display: none;
+cursor: pointer;
+font-size: 30px;
+padding-top: 30px;
+}
+.loca{
+display: flex;
+padding-top: 100px;
+justify-content: space-between;
+height: 1000px;
+}
+.contacter{
+width: auto;
+padding-left: 40px;
+padding-top: 100px;
+}
+.mini{
+margin-top: 150px;
+}
+.minicontact{
+text-align: center;
+height: 50px;
+width: auto;
+color:rgb(255, 255, 255);
+background-color: rgb(224, 138, 9);
+padding: 10px 10px;
+}
+.mini a:hover{
+opacity: 0.7;
+transition: all 0.5s;
+}
+.mini a:active{
+opacity: 0.4;
+}
+.localisation{
+height: 900px;
+text-align: center;
+}
+iframe{
+height: 900px;
+width: 700px;
+}
+section{
+height: auto;
+text-align: center;
+margin-top: 120px;
+}
+section img{
+height: 600px;
+margin: 0px auto;
+width: auto;
+filter: brightness(75%);
+}
+.direction a{
+color:rgb(255, 255, 255);
+background-color: rgb(224, 138, 9);
+width: auto;
+text-align: center;
+padding: 10px 10px;
+border-radius: 35px;
+}
+.direction a:hover{
+font-size: auto;
+background-color: rgb(0, 0, 0);
+border: rgb(0, 0, 0) solid 1px;
+color:rgb(255, 255, 255)
+}
+@media (max-width: 1100px) {
+    .log{
+        margin-left: 50px;
+    }
+.menu-btn {
+  display: block;
+  margin-right: 20px;
+  z-index: 1999;
+}
+.menu {
+  position: fixed;
+  height: 100%;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.99);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.menu.active {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu ul {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.menu ul li {
+    font-size: x-large;
+    background-size: auto;
+    margin: 20px 0;
+    padding: 40px auto 40px auto;
+}
+section{
+    height: auto;
+    text-align: center;
+}
+section img{
+    margin: 0px 0px;
+    width: auto;
+    height: 200px;
+
+}
+.loca{
+    width: auto;
+    height: 1020px;
+}
+.contacter{
+    padding-top: 50px;
+    width: auto;
+    margin-right:20px ;
+}
+.minicontact{
+    font-size: small;
+}
+.localisation{
+    width: auto;
+    height: auto;
+}
+iframe{
+    width: 200px;
+}
+.direction a{
+    font-size: small;
+}
+}
+@media (max-width:500px) {
+    iframe{
+        width: 150px;
+    }
+    .mini{
+        margin-top: 90px;
+    }
+    
+}
+footer{
+background-color: rgb(19, 16, 14);
+color: #fff;
+text-align: center;
+padding: 10px;
+margin-bottom: 0;
+display: flex;
+justify-content: space-between;
+font-size: large;
+height: 100px;
+}
+.fa.fa-facebook{
+color: #1877F2;
+margin-right: 20px;
+height: 30px;
+width: 35px;
+padding: auto;
+text-align: center;
+font-size: x-large;
+padding-top: 5px;
+border-radius: 10px;
+}
+.fb a:hover{
+background-color: #1877F2;
+color: #f5f5f5;
+}
+.fa.fa-instagram{
+color: #E4405F;
+background: transparent;
+height: 30px;
+width: 35px;
+padding: auto;
+text-align: center;
+font-size: x-large;
+padding-top: 5px;
+border-radius: 10px;
+}
+.insta a:hover{
+color: #f5f5f5;
+background-color: #E4405F;
+}
+.socials{
+text-align: left;
+display: flex;
+margin-right: 20px;
+}
+.copyright{
+margin-top: 10px;
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+}
+.clock {
+color: #050202;
+}
+
+.open {
+color: rgb(4, 161, 4);
+text-transform: uppercase;
+}
+.closed{
+color:red;
+text-transform: uppercase;
+}
+.time{
+display: flex;
+justify-content: space-between;
+width: 195px;
+font-size: 17px;
+}
+/* Hide the original select dropdown */
+#schedule {
+display: none;
+}
+
+/* Style the custom dropdown button */
+.custom-select {
+position: relative;
+display: inline-block;
+background-color: #ccc;
+border: 0px ;
+border-radius: 4px;
+padding: 5px;
+cursor: pointer;
+margin-left: 10px;
+height: 7px;
+margin-top: 2px;
+}
+
+/* Style the arrow icon */
+.custom-select::after {
+content: '';
+position: absolute;
+top: 50%;
+right: 10px;
+transform: translateY(-50%);
+border-width: 6px;
+border-style: solid;
+border-color: #999 transparent transparent transparent;
+pointer-events: none; 
+}
+
+/* Show the schedule when dropdown button is clicked */
+.custom-select.opened {
+border-bottom-left-radius: 0;
+border-bottom-right-radius: 0;
+}
+
+.custom-select.opened::after {
+border-color: transparent transparent #999 transparent;
+top: 40%;
+transform: translateY(-50%) rotate(180deg);
+}
+
+/* Style the schedule dropdown options */
+.custom-select-options {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+right: 0;
+padding: 5px;
+overflow: visible;
+border: none;
+margin-left: -110px;
+padding-top: 2px;
+font-size: medium;
+height: max-content;
+}
+
+.custom-select.opened .custom-select-options {
+display: block;
+}
+
+.custom-select-options option {
+padding: 2px 5px;
+}
